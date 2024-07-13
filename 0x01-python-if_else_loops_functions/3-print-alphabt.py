@@ -1,0 +1,3 @@
+for i in range (97, 123):
+    if i not in (101, 113):
+        print(chr(i), sep="", end="")
